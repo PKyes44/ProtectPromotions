@@ -10,6 +10,7 @@ import com.atifqamar.smsdefaulthandler.SmsRecycler.SMSItem
 
 
 class SMSActivity : AppCompatActivity() {
+
         override fun onCreate(savedInstanceState: Bundle?) {
                 super.onCreate(savedInstanceState)
                 setContentView(R.layout.activity_sms)
@@ -41,6 +42,7 @@ class SMSActivity : AppCompatActivity() {
                         )
                 }
                 mRecyclerAdapter.setSMSList(mfriendItems)
+
         }
 }
 
